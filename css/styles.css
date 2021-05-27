@@ -10,7 +10,7 @@ h1,h2{
     font-family: 'Open Sans', sans-serif;
 }
 .posts{
-    padding: 5px;
+    padding: 8px;
 }
 .firstpost {
     background-color: #d6d3d3;
@@ -20,7 +20,7 @@ h1,h2{
     margin: auto;
 }
 .img1{
-    padding: 10px;
+    padding: 5px;
 }
 .link1{
     padding: 10px;
@@ -33,7 +33,6 @@ h1,h2{
 .firstpost:hover {
     background-color: #c6c7c9;
     width: 80%;
-    
     margin: auto;
 }
 .sociallinks {
@@ -46,13 +45,15 @@ h1,h2{
 h2{
     text-align: left;
 }
+.paragraph li {
+    padding: 10px;
+}
 .fungus {
     
     background-color: black;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
-   
     position: relative;
     top: 50px;
     width: 70%;
@@ -62,11 +63,29 @@ h2{
 }
 .fungus:hover{
     width: 80%;
+
     margin: auto;
     box-shadow: 5px 10px 18px black;
-    
-    
 }
-.second{
-    top:10px
+a{
+    text-decoration: none;
+    color: #fff;
+    scroll-behavior: smoo;
+}
+.footer{
+    ;
+    
+    background-color: black;
+    color: #fff;
+    padding: 30px 0 20px;
+}
+.copyright{
+    color: #eaf6f6;
+  font-size: 0.80em;
+  padding-bottom: 10px;
+  margin-top: 30px;
+    
+  }
+.fab {
+    padding: 0 20px;
 }
