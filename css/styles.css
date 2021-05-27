@@ -3,6 +3,7 @@ body {
     margin: auto;
     text-align: center;
     background-color: #fff;
+    
 
 }
 
@@ -49,6 +50,7 @@ h2{
     padding: 10px;
 }
 .fungus {
+    position: relative;
     
     background-color: black;
     color: #fff;
@@ -56,9 +58,11 @@ h2{
     border-radius: 10px;
     position: relative;
     top: 50px;
+    bottom: 100px;
     width: 70%;
     margin: auto;
-    margin-bottom:70px
+    margin-bottom: 70px;
+    
 
 
 }
